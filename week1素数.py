@@ -4,7 +4,7 @@ num_first = int(num_first)
 num_last = int(num_last)
 prime_number = []
 for num in range(num_first, num_last + 1):
-    if num == 1:
+    if num <= 1:
         continue
     elif num > 1:
         for i in range(2, num):
